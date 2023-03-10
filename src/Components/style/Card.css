@@ -1,0 +1,33 @@
+.imagecard {
+  height: 210px;
+  width: 200px;
+  background-color: #ffffff;
+  border: 1px solid #f1f1f5;
+  margin-right: 10px;
+  /* Shadow - Low */
+
+  box-shadow: 0px 12px 18px rgba(23, 23, 37, 0.04);
+  border-radius: 5px;
+}
+
+.img-imagecard-header {
+  width: 100%;
+  object-fit: cover;
+}
+
+.imagecard-body {
+}
+
+.imagecard-title-body {
+  margin: 10px 8px;
+  font-size: 10px;
+  color: rgba(0, 98, 255, 1);
+  font-weight: 600;
+}
+.imagecard-sub-body {
+  margin: 0 8px;
+  font-size: 12px;
+  color: #92929d;
+  line-height: 1.5;
+  color: rgba(146, 146, 157, 1);
+}

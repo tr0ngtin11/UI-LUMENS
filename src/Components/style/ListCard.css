@@ -1,0 +1,23 @@
+.listcard {
+  height: 275px;
+  position: relative;
+  /* margin-top: 10px; */
+}
+
+.listcard-title {
+  color: rgba(23, 23, 37, 1);
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  margin-left: 16px;
+}
+
+.row-card {
+  /* position: relative;
+ */
+  position: absolute;
+  display: flex;
+  /* right: -60px; */
+  left: 16px;
+  transition: all 0.3s linear;
+}

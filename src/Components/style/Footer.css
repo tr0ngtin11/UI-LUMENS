@@ -1,0 +1,35 @@
+.footer {
+  /* margin-top: 20px; */
+  height: 60px;
+  background-color: #ffffff;
+  width: 100%;
+  color: #000;
+  z-index: 1000;
+  border-top: 1px solid rgba(226, 226, 234, 1);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.img-icon {
+  width: 25px;
+  height: 25px;
+  margin: 0 12px;
+}
+
+.notice {
+  position: relative;
+}
+.dot-notice {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: 26px;
+  top: 0;
+  background-color: #fc5a5a;
+  border-radius: 50%;
+}
